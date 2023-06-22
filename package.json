@@ -1,0 +1,25 @@
+{
+  "name": "leviate-comparison-tool",
+  "version": "1.0.0",
+  "description": "A comparison tool that allows Leviates clients to easily compare different plane models.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test",
+    "minify": "minify scripts/app.js > build/app.min.js && minify styles.css > build/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghughes13/leviate-plane-comparison-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghughes13/leviate-plane-comparison-tool/issues"
+  },
+  "homepage": "https://github.com/ghughes13/leviate-plane-comparison-tool#readme",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "minify": "^10.2.0",
+    "prettier": "^2.8.8"
+  }
+}

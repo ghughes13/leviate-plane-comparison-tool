@@ -278,7 +278,7 @@
           .concat(t, "invalid-file-wrapper ")
           .concat(s, " ")
           .concat(m)),
-        (i[n].innerHTML = "Invalid source"),
+        (i[n].innerHTML = "Image Coming Soon"),
         o.handleSourceLoad(n),
         a[n].appendChild(i[n]);
     }
